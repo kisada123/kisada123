@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+         body{
+            text-align: center;
+        background-color: rgb(123, 134, 129);
+        margin: 0;
+      }
+      nav{
+        background-color: rgb(119, 107, 107);
+        text-align: center;
+        padding: 30px 0px 0px 0px;
+        
+      }
+      a{
+        margin: 80px;
+        text-decoration: none;
+
+      }
+      a:hover{
+        text-decoration: underline;
+       
+      }
+    div{
+      text-align: center;
+    }
+      </style>
+</head>
+<body>
+    <nav>
+        <a href="./index.html">Home</a> |
+        <a href="./Education.html">Education</a> |
+        <a href="./Work Experience.html">Work Experience</a> |
+        <a href="./Contact Me.html">Contact Me</a>
+        <br>
+        <br>
+        
+        <hr>
+      </nav>
+<div>
+    <h1 style="text-align: center;">Contact Me</h1>
+</div>
+<div style="border: 1px solid ; border-radius: 20px; text-align: center; padding: 50px; margin: 0px 350px; border-color: blanchedalmond; background-color: bisque;" >
+<p>Enter your info..</p>
+<FORM ACTION="https://jkorpela.fi/cgi-bin/echo.cgi" >
+    <label for="fname">You Name:</label><br>
+    <input type="text" id="fname" name="fname" value=""><br><br>
+    <label for="ename">You E-mail:</label><br>
+    <input type="text" id="ename" name="ename"value="" ><br><br>
+    <label for="Gender">Gender</label> <br>
+    <select id="gender" name="gender" style="width: 180px;">
+      <option value="0">Select..</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select> <br>
+    <textarea name="message" style="width:200px; height:250px;"></textarea>
+    <br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Clear">
+  </form> 
+  
+
+</div>
+</body>
+</html>
